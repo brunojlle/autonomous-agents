@@ -8,8 +8,8 @@ from langchain_experimental.agents import create_csv_agent
 from langchain.agents.agent_types import AgentType
 
 # Configuração da página
-st.set_page_config(page_title="Analisador Completo de CSV", page_icon="📊")
-st.title("📊 Analisador Completo de CSV com Google Gemini")
+st.set_page_config(page_title="Analisador Completo de CSV", page_icon="\U0001F4CA")
+st.title("\U0001F4CA Analisador Completo de CSV com Google Gemini")
 
 # Sidebar para configurações
 with st.sidebar:
