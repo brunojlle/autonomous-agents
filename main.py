@@ -26,6 +26,11 @@ with st.sidebar:
     st.markdown("---")
     st.markdown("Faça upload de um arquivo ZIP contendo arquivos CSV para análise completa.")
 
+INSTRUCTION = """
+Por favor, responda sempre em português brasileiro (pt-BR), de forma clara e detalhada. 
+Se estiver analisando dados, inclua explicações em português sobre os resultados.
+"""
+
 # Upload do arquivo ZIP
 uploaded_file = st.file_uploader("Upload de arquivo ZIP com CSVs", type="zip")
 
@@ -81,7 +86,8 @@ if uploaded_file is not None:
                     [os.path.join(temp_dir, f) for f in csv_files],
                     verbose=True,
                     agent_type=AgentType.ZERO_SHOT_REACT_DESCRIPTION,
-                    allow_dangerous_code=True
+                    allow_dangerous_code=True,
+                    prefix=INSTRUCTION
                 )
                 
                 # Interface de perguntas
