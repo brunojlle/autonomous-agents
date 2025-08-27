@@ -12,8 +12,8 @@ from langchain_experimental.agents import create_csv_agent
 from langchain.agents.agent_types import AgentType
 
 # Configuração da página
-st.set_page_config(page_title="Processador ZIP para CSV - VR/VA", page_icon="📊")
-st.title("📊 Processador de Arquivos ZIP para CSV - Automação VR/VA")
+st.set_page_config(page_title="Automação da compra de VR/VA", page_icon="📊")
+st.title("📊 Automação da compra de VR/VA")
 
 # Sidebar para configurações
 with st.sidebar:
