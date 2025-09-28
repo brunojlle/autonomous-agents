@@ -44,7 +44,7 @@ The necessary dependencies are listed in the `requirements.txt` file:
 ---
 
 ## 🛠️ Installation
-To set up and run the project locally, assuming you have Python 3.9+ installed:
+To set up and run the project locally, assuming you have Python 3.10+ installed:
 
 1.  **Clone the Repository (Placeholder):**
     ```bash
@@ -71,7 +71,7 @@ To set up and run the project locally, assuming you have Python 3.9+ installed:
 ## 📝 Notes
 * You will need a **Google Gemini API key** to enable the analysis features.
 * The agent's internal thinking and final answer are outputted in **Portuguese**, as per the configuration in `agent_workflow.py`.
-* The application creates a temporary directory `temp_charts/` to store generated visualizations.
+* The application creates a temporary directory `charts/` to store generated visualizations.
 
 ---
 
