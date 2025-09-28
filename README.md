@@ -68,6 +68,12 @@ To set up and run the project locally, assuming you have Python 3.10+ installed:
 
 ---
 
+## 🌐 Live Demo
+Try the live version at:
+https://autonomous-agents-v2.streamlit.app/
+
+---
+
 ## 📝 Notes
 * You will need a **Google Gemini API key** to enable the analysis features.
 * The agent's internal thinking and final answer are outputted in **Portuguese**, as per the configuration in `agent_workflow.py`.
