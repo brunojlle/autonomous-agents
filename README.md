@@ -8,7 +8,7 @@ This project uses the **LangChain** framework and **Streamlit** to create a robu
 ---
 
 ## ✨ Features
-* **Gemini 1.5 Flash Powered:** Optimized for speed and complex reasoning.
+* **Gemini 2.5 Flash Powered:** Optimized for speed and complex reasoning.
 * **Autonomous Code Execution:** The agent writes and runs Python code within a safe, persistent environment.
 * **Localization:** User interface is in **Portuguese**, while the codebase structure (variables, functions, comments) is in **English** for professional maintenance.
 * **Data Visualization:** Automatically generates and displays charts (`matplotlib`/`seaborn`) based on user requests.
